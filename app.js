@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res)=>{
-    res.send("This is just the homepage");
+    res.send("This is just the homepage, and it's deployed on EBS");
 });
 
 let port = process.env.port || 3000;
